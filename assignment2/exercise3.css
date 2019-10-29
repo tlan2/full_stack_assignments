@@ -1,0 +1,82 @@
+header {
+    border: 1px solid darkgreen;
+    background: darkgreen;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+}
+
+header h1 {
+    color: ghostwhite;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+header h3 {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+
+}
+
+h2 {
+    color: royalblue;
+    font-weight: bold;
+}
+
+h3 {
+    color: steelblue;
+    font-weight: bold;
+}
+
+img {
+    margin-top: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: darkgrey;
+}
+
+#content {
+    width: 600px;
+    margin: auto;
+}
+
+#about p {
+    font-weight: bold;
+    background-color: white;
+
+}
+
+a, a:visited {
+    color: ghostwhite;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact {
+    border: 3px solid black;  
+    width: 275px;
+    text-align: left;
+    margin: auto;
+    padding-left:8px;
+    background-color: white;
+}
+
+#contact input[type=submit] {
+    margin-left: 75px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 14px 30px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding: 15px 400px;
+}
