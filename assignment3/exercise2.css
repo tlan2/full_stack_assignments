@@ -1,0 +1,36 @@
+.col-sm-1 {
+    background-color: navy;
+    border: solid 1px white;
+    padding: 1%;
+}
+
+.col-sm-3 {
+    background-color: purple;
+    border: solid 1px white;
+    padding: 1%;
+}
+
+.col-sm-4 {
+    background-color: darkcyan;
+    border: solid 1px white;
+    padding: 1%;
+}
+
+.col-sm-6 {
+    background-color: yellowgreen;
+    border: solid 1px white;
+    padding: 1%;
+} 
+
+.col-sm-8 {
+    background-color: salmon;
+    border: solid 1px white;
+    padding: 1%;
+}
+
+.col-sm-12 {
+    background-color: green;
+    border: solid 1px white;
+    padding: 1%;
+}
+
