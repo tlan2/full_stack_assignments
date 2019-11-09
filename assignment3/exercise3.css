@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+} 
+
+.flex-container > div {
+    background-color: dimgray;
+    border: solid 5px white;
+    border-radius: 7px;
+    color: white;
+    font-family: serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5% 0% 3% 1%;
+    vertical-align: top;
+    width: 15%;
+}
