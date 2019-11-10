@@ -1,0 +1,33 @@
+.item1 { 
+    grid-area: one; 
+}
+.item2 { 
+    grid-area: two; 
+}
+.item3 { 
+    grid-area: three; 
+}
+.item4 { 
+    grid-area: four;
+}
+.item5 { 
+    grid-area: five; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'one one one one'
+        'two two three three'
+        'two two four five';
+    grid-gap: 5px;
+    margin: 1% 24%;
+}
+
+.grid-container > div {
+  background-color: dimgray;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 2px 35px 10px;
+  vertical-align: top;
+}
