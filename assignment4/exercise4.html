@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lancaster-A4Ex4</title>
+    </head>
+<body onresize="myFunction()">
+    <h4>Current Window Size</h4>
+    <div id="width"></div>
+    <div id="height"></div>
+
+    <script>
+        function outputSize() {
+            var w = document.documentElement.clientWidth;
+            var h = document.documentElement.clientHeight;
+            
+            document.getElementById("width").innerHTML = "Width: " + w;
+            document.getElementById("height").innerHTML = "Height: " + h;
+        }
+
+        window.addEventListener("resize", outputSize);
+
+        outputSize();
+    </script>
+    
+</body>
+</html>

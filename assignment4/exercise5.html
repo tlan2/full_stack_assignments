@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <title>Lancaster-A4Ex5</title>
+            <link rel="stylesheet" type="text/css" href="exercise4.css">
+    </head>
+
+    <body>
+        <h4>Background Color Changer</h4>
+        <p id="colorCode"></p>
+        <input type="submit" value="Change Color" onclick="random_bg_color()">
+    
+    <script>
+        function random_bg_color() {
+            var hex = '#' + Math.floor(Math.random()*16777215).toString(16);
+            document.getElementById("colorCode").innerHTML = "<strong>"+hex+"</strong>";
+            document.body.style.background = hex;
+
+
+            //Random rgb color generator
+            // var r = Math.floor(Math.random() * 256);
+            // var g = Math.floor(Math.random() * 256);
+            // var b = Math.floor(Math.random() * 256);
+            // var bgColor = "rgb(" + r + "," + g + "," + b + ")";
+
+            // document.getElementById("colorCode").innerHTML = bgColor;
+            // document.body.style.background = bgColor;
+        }
+
+        random_bg_color();
+    </script>
+
+    </body>
+</html>
