@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lancaster-A5Ex1</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <form id="inputForm" action="/submit" method="POST">
+            <h5 class="bold">CONTACT US</h5>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="name" id="inputName" class="form-control" 
+                        name="inputName">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" id ="inputEmail" class="form-control" 
+                        name="inputEmail">
+            </div>
+            <div class="form-group">
+                <label for="inputComment">Comment</label>
+                <textarea class="form-control" id="inputComment" name="inputComment" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                    <button type="submit" id="submitbtn" class="btn btn-primary">Submit</button>
+                    <button type="reset" id="resetbtn" class="btn btn-secondary">Reset</button>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

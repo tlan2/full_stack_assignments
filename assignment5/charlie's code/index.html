@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Contact Us with Bootstrap Buttons</title>
+    <title>Contact Us Logger</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script type="text/javascript" src="./app.js"></script>     
+</head>
+<body>
+    <h1>
+    </h1>
+        <div>
+            <form id="comment_form" method="POST" action="/submit">
+                <p class="box_head"></p>
+                CONTACT US!    
+                <br><br>
+                <p>
+                    <input id="first_name" name="first_name" type="text" title="first_name" placeholder="First Name"/> 
+                    <input id="email" name="email" type="email" title="email" placeholder="Email"/>    
+                    <br><br>
+                    <p>
+                        <textarea id="form_content" name="form_content" placeholder="What's on your mind?"></textarea>
+                    </p> 
+                    <br>
+                    <div class="container">
+                        <button type="submit" id="submit-button"class="btn btn-primary btn-lg" role="button" onclick="submitLogger()">Submit</button>
+                        <button type="button" id="reset-button" class="btn btn-default btn-lg" onclick="resetForm()">Reset</a>    
+                    </div>        
+                </p>
+            </form>
+        </div>
+</body>
+</html>
