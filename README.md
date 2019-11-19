@@ -16,8 +16,6 @@ I signed up for our Slack channel and downloaded VS Code.
 
 **Exercise 3** - Made the HTML elements of a portfolio website. It included my name, a brief bio, a header, a footer, a section, an unordered list, three different types of headers, three photo elements, and a contact form.
 
-![HTML Form](img/a1ex3.png)
-
 ## Assignment 2 - CSS
 
 **Exercise 1** - Copied previous assignment’s exercise 1 and styled it using CSS as per instructions.
