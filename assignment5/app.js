@@ -17,7 +17,7 @@ app.post('/submit', function(req, res) {
     res.write("name: " + iname + "\n");
     res.write("email: " + iemail + "\n");
     res.write("name: " + icomment + "\n");
-    res.end()
+    res.end() //Used to end response. SEND file automatically closes file for you. Won't display info unless included.
 });
 
 var server = app.listen(port, function () {
