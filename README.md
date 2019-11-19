@@ -13,7 +13,7 @@ I signed up for our Slack channel and downloaded VS Code.
 
 ![HTML Form](img/a1ex1.png)
 
-**Exercise 2** - Recreated HTML elements from [http://placekitten.com/] (http://placekitten.com/).
+**Exercise 2** - Recreated HTML elements from [placekitten.com/](http://placekitten.com/).
 
 ![placekitten.com](img/a1ex2.png)
 
@@ -81,8 +81,8 @@ Created an Express server and middleware to handle the input and output of a for
 
 Completed the following tutorials (with the resulting code in the assignment 6 folder):
 
-1. [React Tutorial] (https://reactjs.org/tutorial/tutorial.html)
+1. [React Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
-2. [Typescript Tutorial] (https://angular-presentation.firebaseapp.com/angular/typescript/intro)
+2. [Typescript Tutorial](https://angular-presentation.firebaseapp.com/angular/typescript/intro)
 
-3. [Angular Tutorial] (https://codelab.fun/angular/create-first-app/intro)
+3. [Angular Tutorial](https://codelab.fun/angular/create-first-app/intro)
