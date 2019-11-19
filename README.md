@@ -8,7 +8,7 @@ I signed up for our Slack channel and downloaded VS Code.
 
 **Exercise 1** - Created HTML form.
 
-![HTML Form](img/a1ex1.png | width=400)
+![HTML Form](img/a1ex1.png =400x400)
 
 **Exercise 2** - Recreated HTML elements from [placekitten.com/](http://placekitten.com/).
 
