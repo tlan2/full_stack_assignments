@@ -1,8 +1,5 @@
 # Full-Stack Assignments
 
-**Github Repo: https://github.com/tlan2/full_stack_assignments**
-Contains all the assignment code
-
 ## Assignment 0 - Setup
 
 I signed up for our Slack channel and downloaded VS Code.
@@ -11,7 +8,7 @@ I signed up for our Slack channel and downloaded VS Code.
 
 **Exercise 1** - Created HTML form.
 
-![HTML Form](img/a1ex1.png)
+![HTML Form](img/a1ex1.png =250x)
 
 **Exercise 2** - Recreated HTML elements from [placekitten.com/](http://placekitten.com/).
 
